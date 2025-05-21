@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Remotes -->
+    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
+    <remote name="extreme729" fetch="https://github.com/extreme729" clone-depth="1" />
+  
+    <!-- Device -->
+    <project path="device/samsung/a12" name="android_device_samsung_a12" remote="extreme729" revision="los19" />
+
+    <!-- Kernel -->
+    <project path="kernel/samsung/a12" name="android_kernel_samsung_a12" remote="extreme729" revision="los20" />
+
+    <!-- Vendor -->
+    <project path="vendor/samsung/a12" name="android_vendor_samsung_a12" remote="extreme729" revision="los19" />
+
+    <!-- Hardware -->
+    <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" revision="lineage-19.1" />
+
+</manifest>
