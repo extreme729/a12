@@ -6,15 +6,27 @@
     <remote name="extreme729" fetch="https://github.com/extreme729" clone-depth="1" />
   
     <!-- Device -->
-    <project path="device/samsung/a12" name="android_device_samsung_a12" remote="extreme729" revision="los19" />
+    <project path="device/samsung/a04e" name="android_device_samsung_a04e" remote="extreme729" revision="lineage-22.1" />
+    
+    <!-- mt6765 jdm -->
+    <project path="device/samsung/mt6765-jdm" name="android_device_samsung_mt6765-jdm" remote="extreme729" revision="lineage-22.1" />
 
     <!-- Kernel -->
-    <project path="kernel/samsung/a12" name="android_kernel_samsung_a12" remote="extreme729" revision="los19" />
+    <project path="kernel/samsung/a04e" name="android_kernel_samsung_a04e" remote="extreme729" revision="lineage-22.1" />
 
-    <!-- Vendor -->
-    <project path="vendor/samsung/a12" name="android_vendor_samsung_a12" remote="extreme729" revision="los19" />
+    <!-- hq-camera -->
+    <project path="vendor/samsung/hq-camera" name="vendor_samsung_hq-camera" remote="extreme729" revision="lineage-22.1" />
 
-    <!-- Hardware -->
-    <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" revision="lineage-19.1" />
+    <!-- vendor-lpm -->
+     <project path="vendor/samsung/lpm-p35" name="vendor_samsung_lpm-p35" remote="extreme729" revision="lineage-22.1" />
+
+    <!-- samsung-Hardware -->
+    <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" revision="lineage-22.1" />
+
+    <!-- mediatek-hardware -->
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="LineageOS" revision="lineage-22.1" />
+
+    <!-- Sepolicy-mediatek -->
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LineageOS" revision="lineage-22.1" />
 
 </manifest>
