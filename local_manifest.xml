@@ -9,7 +9,7 @@
     <project path="device/samsung/a12" name="android_device_samsung_a12" remote="extreme729" revision="los19" />
 
     <!-- Kernel -->
-    <project path="kernel/samsung/a12" name="android_kernel_samsung_a12" remote="extreme729" revision="los20" />
+    <project path="kernel/samsung/a12" name="android_kernel_samsung_a12" remote="extreme729" revision="los19" />
 
     <!-- Vendor -->
     <project path="vendor/samsung/a12" name="android_vendor_samsung_a12" remote="extreme729" revision="los19" />
