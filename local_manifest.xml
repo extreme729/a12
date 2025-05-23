@@ -6,7 +6,7 @@
     <remote name="extreme729" fetch="https://github.com/extreme729" clone-depth="1" />
   
     <!-- Device -->
-    <project path="device/samsung/a12" name="android_device_samsung_a12" remote="extreme729" revision="los19" />
+    <project path="device/samsung/a12" name="android_device_samsung_a12-test" remote="extreme729" revision="los19" />
 
     <!-- Kernel -->
     <project path="kernel/samsung/a12" name="android_kernel_samsung_a12" remote="extreme729" revision="los19" />
