@@ -18,7 +18,7 @@
     <project path="vendor/samsung/hq-camera" name="vendor_samsung_hq-camera" remote="extreme729" revision="lineage-22.1" />
 
     <!-- vendor-lpm -->
-     <project path="vendor/samsung/lpm-p35" name="vendor_samsung_lpm-p35" remote="extreme729" revision="lineage-22.1" />
+    <project path="vendor/samsung/lpm-p35" name="vendor_samsung_lpm-p35" remote="extreme729" revision="lineage-22.1" />
 
     <!-- samsung-Hardware -->
     <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" revision="lineage-22.1" />
